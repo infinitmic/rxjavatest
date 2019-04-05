@@ -3,7 +3,7 @@ package com.pr.rxj.observables.create_observable;
 
 import io.reactivex.Observable;
 
-public class ObservableCreate {
+public class GetObservableByCreate {
 
     public static void main(String[] args) {
         Observable<String> source = Observable.create(emitter -> {
