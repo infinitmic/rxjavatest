@@ -8,6 +8,5 @@ public class DoOnSuccessOperator {
                 .reduce((total , next) -> total + next)
                 .doOnSuccess(i -> System.out.println("On Success"))
                 .subscribe(i -> System.out.println("RECEVIED " + i));
-
     }
 }
